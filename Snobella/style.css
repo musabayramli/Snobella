@@ -1,0 +1,1187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* ---------------heder start---------------- */
+.hed {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    position: relative;
+}
+
+.hed h1 {
+    color: #212121;
+}
+
+.icon {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon a {
+    color: #212121;
+}
+
+.srch {
+    width: 450px;
+    border: none;
+    background: #E5E5E5;
+    padding: 5px;
+}
+
+.div {
+    position: relative;
+}
+
+.fa-solid {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: gray;
+}
+
+nav {
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+
+.ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ul li a {
+    color: black;
+    position: relative;
+}
+
+.ul li a:hover {
+    opacity: 0.8;
+}
+
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+/* ---------------heder end---------------- */
+
+/* ---------------section1 start---------------- */
+
+.sec1 {
+    height: 584px;
+    background: #FFE2E0;
+    margin-top: 20px;
+
+}
+
+.sec-div1 {
+    width: 400px;
+    display: flex;
+}
+
+.contect {
+    width: 215px;
+    margin: 100px 115px;
+}
+
+.contect h2 {
+    font-size: 24px;
+    color: #DF4244;
+}
+
+.contect h1 {
+    width: 400px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contect p {
+    width: 350px;
+    color: #212121;
+
+}
+
+.sec_1-img img {
+    width: 642px;
+    height: 435px;
+    left: 765px;
+    top: 234px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.c-a {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.contect a {
+    color: #FFFFFF;
+    padding: 15px 35px;
+    height: 52px;
+    background: #206363;
+}
+
+.sec-icon {
+    margin-left: 160px;
+}
+
+.sec-icon img {
+    margin-right: 5px;
+}
+
+/* ---------------Section1 End---------------- */
+
+/* ---------------Section2 Start---------------- */
+
+.sec2 {
+    width: 100%;
+    height: 120px;
+    background: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2-icon {
+    display: flex;
+    margin-right: 20px;
+}
+
+.sec2-icon img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.sec2-icon p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+/* ---------------Section3 Start---------------- */
+
+.sec3 {
+    width: 60%;
+    margin: 60px 230px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+.div-s3 {
+    background: #F5F5F5;
+    width: 270px;
+    height: 174px;
+    margin-right: 30px;
+}
+
+.div-s3 p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.s_3-div1 img {
+    position: absolute;
+    left: 25px;
+    top: 40px;
+    height: 130px;
+    width: 143px;
+}
+
+.s_3-div2 img {
+    position: absolute;
+    left: 240px;
+    top: 80px;
+    height: 90px;
+    width: 133px;
+}
+
+.s_3-div3 img {
+    position: absolute;
+    left: 440px;
+    top: 30px;
+    height: 140px;
+    width: 133px;
+}
+
+.s_3-div4 img {
+    position: absolute;
+    left: 640px;
+    top: 70px;
+    height: 100px;
+    width: 133px;
+}
+
+/* ---------------Section3 End---------------- */
+
+/* ---------------Section4 Start---------------- */
+
+.sec4 {
+    width: 80%;
+    height: 600px;
+}
+
+.sec4-d1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* #vector:hover{
+    background-color: red;
+} */
+.sec4-d1 h2 {
+    height: 54px;
+    width: 290px;
+}
+
+.sec4-d1 .bir p {
+    height: 27px;
+    width: 137px;
+
+}
+
+.sec4-d1 .bir img {
+    color: #2E2E2E;
+    position: absolute;
+
+}
+
+.cart1 {
+    background: #F9F9F9;
+    margin-left: 160px;
+    width: 300px;
+    position: relative;
+}
+
+.sec4-cart1 {
+    width: 360px;
+    height: 508px;
+
+    border-radius: 8px;
+}
+
+.sec4-cart1 .new {
+    position: absolute;
+    width: 59px;
+    height: 32px;
+    top: 10px;
+    left: 20px;
+    background: green;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+
+.sec4-cart1 .vector {
+    position: absolute;
+    right: 18px;
+    top: 10px;
+}
+
+.cart1-bag {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.star {
+    margin-top: -10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.sec4-cart1 p {
+    width: 250px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.sec4-cart1 .span span:first-child {
+    color: red;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.sec4-cart1 .span span:last-child {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.sec4-cart1 a {
+    display: inline-block;
+    width: 240px;
+    height: 30px;
+    border: 1px solid gray;
+    text-align: center;
+    line-height: 25px;
+    color: #212121;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.cart {
+    display: flex;
+    justify-content: left;
+}
+
+.cart2 {
+    background: #F9F9F9;
+    margin-left: 60px;
+    width: 300px;
+    position: relative;
+}
+
+.percent {
+    position: absolute;
+    width: 59px;
+    height: 32px;
+    top: 10px;
+    left: 20px;
+    background: red;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+
+/* ---------------Section4 End---------------- */
+
+/* ---------------Section5 Start---------------- */
+
+
+.sec5 {
+    width: 100%;
+    height: 550px;
+    background: #FFF7F7;
+}
+
+.sec5-d1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sec5-cart {
+    background: #FFFFFF;
+    height: 400px;
+}
+
+.sec5-d1 h2 {
+    height: 54px;
+    width: 290px;
+}
+
+.sec5-d1 .iki p {
+    height: 27px;
+    width: 137px;
+
+}
+
+.sec5-d1 .iki img {
+    color: #2E2E2E;
+    position: absolute;
+
+}
+
+.ather {
+    height: 400px;
+}
+
+.sec5-bag1 {
+    height: 100px;
+    width: 160px;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+
+}
+
+.cart1 {
+    background: #F9F9F9;
+    width: 300px;
+    position: relative;
+}
+
+.sec5-bag2 {
+    width: 180px;
+    height: 130px;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+.sec5-cart1 {
+    width: 360px;
+    height: 508px;
+
+    border-radius: 8px;
+}
+
+.sec5-cart1 .vector {
+    position: absolute;
+    right: 18px;
+    top: 10px;
+}
+
+.sec5-star {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.sec5-cart1 p {
+    width: 250px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.sec5-cart1 .span span:first-child {
+    color: red;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.sec5-cart1 .span span:last-child {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.sec5-cart1 a {
+    display: inline-block;
+    width: 240px;
+    height: 30px;
+    border: 1px solid gray;
+    text-align: center;
+    line-height: 25px;
+    color: #212121;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.sec5-bag3 {
+    width: 130px;
+    margin-left: 160px;
+    margin-top: 40px;
+}
+
+.star3 {
+    margin-top: 30px;
+}
+
+/* ---------------Section5 End---------------- */
+
+/* ---------------Footer Start---------------- */
+
+footer {
+    width: 100%;
+    height: 90vh;
+    background: #F7F7F9;
+}
+
+.f-div1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+
+
+}
+
+.f-input {
+    position: relative;
+    height: 80px;
+}
+
+.f-input input {
+    width: 304px;
+    height: 35px;
+}
+
+.f-input img {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    height: 15px;
+    width: 15px;
+}
+
+footer .main {
+    display: flex;
+    margin-top: 60px;
+}
+
+footer .main .left {
+    width: 300px;
+    height: auto;
+    margin-left: 230px;
+}
+
+footer .main .left a {
+    color: black;
+    background: #F7F7F9;
+    padding: 10px 40px;
+    border: 1px solid #171717;
+    opacity: 80%;
+}
+
+footer .main .left p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 40px;
+
+}
+
+footer .main .left .left-div2 {
+    margin: 40px 0;
+}
+
+
+footer .main .left a img {
+    width: 16px;
+    height: 15px;
+}
+
+footer .main .middle1 {
+    width: 100px;
+    height: auto;
+    margin-left: 250px;
+}
+
+footer .main .middle1 h2 {
+    margin-bottom: 10px;
+}
+
+footer .main .middle1 li {
+    margin-bottom: 10px;
+}
+
+footer .main .middle1 li a {
+    color: black;
+}
+
+footer .main .middle2 {
+    width: 100px;
+    height: auto;
+    margin-left: 50px;
+}
+
+footer .main .middle2 h2 {
+    margin-bottom: 10px;
+}
+
+footer .main .middle2 li {
+    margin-bottom: 10px;
+}
+
+footer .main .middle2 li a {
+    color: black;
+}
+
+footer .main .middle3 {
+    width: 100px;
+    height: auto;
+    margin-left: 50px;
+}
+
+footer .main .middle3 h2 {
+    margin-bottom: 10px;
+}
+
+footer .main .middle3 li {
+    margin-bottom: 10px;
+}
+
+footer .main .middle3 li a {
+    color: black;
+}
+
+footer .bottom {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+footer .bottom .f-bottom1 p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+footer .bottom .f-bottom2 a img {
+    margin-right: 20px;
+    color: #212121;
+}
+
+footer .bottom .f-bottom2 a .fa-brands {
+    color: #212121;
+    font-size: 20px;
+}
+
+/* ---------------Footer End---------------- */
+
+/* ----------------Sholder page start--------------- */
+
+/* ----------------Section1 Start----------------------- */
+
+.sh-sec1 {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.sec4-cart1 .red {
+    background: red;
+}
+
+.sh-sec1 .sh-p {
+    display: flex;
+    margin-left: 120px;
+}
+
+.sh-sec1 .main {
+    width: 100%;
+    ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sh-left {
+    width: 300px;
+    height: 260px;
+    margin-top: 30px;
+    border: 1px solid #D0D0D0;
+    background: #E5E5E5;
+    ;
+}
+
+.sh-left .sh-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sh-left img {
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+}
+
+.sh-left .sh-ul {
+    margin: 30px 60px;
+}
+
+.sh-left .sh-ul ul li {
+    margin: 15px 0;
+}
+
+.sh-cart {
+    margin: 0;
+    margin-top: 25px;
+}
+
+.sh-ul {
+    position: absolute;
+    margin-top: -500px;
+}
+
+/* ----------------Section1 End----------------------- */
+
+/* ----------------Section2 Start----------------------- */
+
+.sh-sec2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.yuxari {
+    margin-top: -250px;
+    margin-left: 10px;
+}
+
+.yuxari1 {
+    height: 100px;
+    margin-top: -500px;
+    margin-left: 70px;
+}
+
+.yuxari1 span {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.yuxari1 .sh-p {
+    border: 1px soli gray;
+    padding: 8px;
+    background: red;
+}
+
+/* ----------------Section2 End----------------------- */
+
+/* ----------------Section3 Start----------------------- */
+
+.yuxari2 {
+    height: 100px;
+    margin-left: 66px;
+}
+
+.yuxari2 span {
+    border: 1px solid gray;
+    padding: 5px;
+    margin-right: 5px;
+    color: rgba(33, 33, 33, 0.75);
+}
+
+/* ----------------Section3 End----------------------- */
+
+/* ----------------Section4 Start----------------------- */
+.sh-sec4 {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.sec4-main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 300px;
+    margin-left: 370px;
+}
+
+.sec4-main .yuxari2 {
+    position: absolute;
+    left: 0;
+    margin-top: -280px;
+    height: 130px;
+}
+
+.sh-ul img {
+    margin-right: 5px;
+}
+
+.sh-s {
+    margin-left: -300px;
+}
+
+/* ----------------Section4 End----------------------- */
+
+/* --------------------Backbag page Start---------------- */
+
+/* ----------------Section1 Start----------------------- */
+.bck-sec1 {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.bck-sec1 .sh-p {
+    display: flex;
+    margin-left: 120px;
+}
+
+.bck-main {
+    width: 80%;
+    margin-left: 60px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bck-main .main-left {
+    width: 50px;
+    margin-left: 40px;
+}
+
+.bck-main .main-left img {
+    width: 70px;
+}
+
+.bck-main .bck-cart {
+    margin-left: 0;
+    height: 300px;
+    margin-top: 15px;
+}
+
+.bck-main .bck-cart img {
+    margin-left: 50px;
+}
+
+.bck-right {
+    width: 40%;
+
+}
+
+.bck-right .top {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.border {
+    border: 1px solid #E4E4E4;
+    padding: 10px 5px;
+    border-radius: 8px;
+}
+
+.main {
+    height: auto;
+}
+
+.bck-right .bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.bck-bck{
+    height: 350px;
+}
+
+
+.bck-right .btn {
+    padding: 10px 10px;
+}
+
+.bck-right .btn:first-child {
+    border: 1px solid #F75145;
+}
+
+.bck-right .btn .color {
+    color: #F75145;
+}
+
+.bck-main2 {
+    position: absolute;
+    right: 280px;
+    top: 260px;
+}
+
+.main1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main1 .color img {
+    width: 15px;
+    margin: 10px 10px;
+}
+
+.main1 .yuxari2 {
+    background: transparent;
+    margin-top: 0;
+    width: 300px;
+    border: 0;
+}
+
+.main1 .yuxari2 h2 {
+    margin-left: -140px;
+}
+
+.sh-content h2 {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.color h2 {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.bck-main3 {
+    position: absolute;
+    right: 280px;
+    top: 380px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bck-main3 .left {
+    width: 200px;
+}
+
+.bck-main3 .right {
+    width: 200px;
+}
+
+.bck-main3 .left a {
+    border: 1px solid #DF4244;
+    padding: 10px 50px;
+    background: #DF4244;
+    color: white;
+    border-radius: 8px;
+}
+
+.bck-main3 .right a {
+    border: 1px solid black;
+    padding: 10px 50px;
+    background: white;
+    color: #212121;
+    border-radius: 8px;
+}
+
+.bck-main4 {
+    position: absolute;
+    right: 570px;
+    top: 430px;
+}
+
+.bck-main4::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+    border-bottom: 1px solid black;
+}
+
+
+
+/* ----------------Section1 End----------------------- */
+
+/* ----------------Section2 Start----------------------- */
+.bck-sec2 {
+    width: 80%;
+    height: auto;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.bck-sec2 .title a {
+    color: black;
+    margin-right: 30px;
+}
+
+.bck-sec2 .title:last-child {
+    cursor: pointer;
+}
+
+.bck-sec2 .content {
+    width: 1000px;
+    margin-top: 40px;
+}
+
+.bck-sec2 .content p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.dive{
+    display: none;
+    
+}
+#rev {
+    border: 1px solid #21212147;
+    position: relative;
+    margin: 40px 0;
+    width: 80%;
+}
+
+.rev-top {
+    display: flex;
+    margin-left: 30px;
+}
+
+.rev-top h2 {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.top-img {
+    position: absolute;
+    left: 140px;
+    top: 8px;
+}
+
+.top-img img {
+    width: 10px;
+}
+
+.rev-span {
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.rev-bottom {
+    margin-left: 30px;
+    width: 55%;
+    margin-bottom: 10px;
+}
+
+.rev-bottom p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+}
+
+.title a{
+    position: relative;
+}
+
+.title a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+.title a:hover::after {
+    width: 100%;
+}
+
+/* ----------------Section2 End----------------------- */
+
+/* ----------------Section3 Start----------------------- */
+.bck-sec3 {
+    margin-top: 40px;
+    margin-left: -100px;
+}
+
+.sec {
+    margin-left: 40px;
+}
+
+/* ----------------Section3 End----------------------- */
+
+/* ----------------Section4 Start----------------------- */
+.bck-sec4 {
+    width: 80%;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.bck-sec4 .sec4-container {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #E4E4E4;
+}
+
+.bck-sec4 .sec4-container .sec4-1 {
+    border-right: 1px solid #E4E4E4;
+}
+
+
+.bck-sec4 .sec4-container .sec4-1 img {
+    margin-left: 90px;
+}
+
+.bck-sec4 .sec4-container .sec4-1 h2 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 30px;
+
+}
+
+.sec0 {
+    margin-left: 150px;
+}
+
+.bck-sec4 .sec4-container .sec4-1 pre {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: -30px;
+    color: #212121;
+    opacity: 75%;
+
+}
+
+
+
+/* ----------------Section4 End----------------------- */
+
+
+
+/* --------------------Backbag page End---------------- */

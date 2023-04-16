@@ -1,0 +1,14 @@
+.sec-div1{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    
+}
+
+.sec1 .sec_1-img img{
+    margin-top: -100px;
+    width: 200px;
+    height: 200px;
+}
